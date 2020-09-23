@@ -9,8 +9,15 @@
     position: absolute;
     right: 10%;
     top: 10%;
-    
+    animation-name: example;
+    animation-duration: 3s;
 }
+
+@keyframes example {
+    0%   { right:0px;}
+   
+    100% {right:10%; }
+  }
 
 .logo p{
     position: absolute;
@@ -27,13 +34,30 @@
     top: 30%;
     left: 10%;
     width: 300px;
+    animation-name: lab;
+    animation-duration: 4s;
     
 }
+@keyframes lab {
+    0%   {left:0px}
+   
+    100% {left:10%;}
+  }
 .label h2{
     letter-spacing: 2px;
     font-weight: 800;
     margin-bottom: 20px;
 }
+.meeting{
+    animation-name: exp;
+    animation-duration: 6s;
+    z-index: 1000;
+}
+@keyframes exp {
+    0%   {left:0px}
+   
+    100% {left:10%;}
+  }
 .label p{
     color: grey;
     margin-bottom: 20px;
@@ -138,8 +162,16 @@
 .foto{
     position: absolute;
     top: 180%;
-    left: 40%;
+    right: 8%;
+    animation-name: fot;
+    animation-duration: 6s;
+    
 }
+@keyframes fot {
+    0%   {right:0%}
+   
+    100% {right:8%}
+  }
 .team{
     position: absolute;
     top: 270%;
